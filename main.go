@@ -40,6 +40,8 @@ func main() {
 					Key:   key,
 					Value: value,
 				})
+
+				log.Printf("[envs] %s=%s\n", key, value)
 			}
 		}
 	}
