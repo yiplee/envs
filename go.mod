@@ -1,3 +1,3 @@
-module github.com/yiplee/envs
+module envs
 
 go 1.16
